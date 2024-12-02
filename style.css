@@ -1,5 +1,56 @@
+@font-face {
+    font-family: Milkiway;
+    src: url(./Home_Page/Milkyway\ DEMO.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+#header .banner {
+    width: 100%;
+    height: 95vh;
+    background-image: url(./Home_Page/background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#header nav{
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#header .text h1{
+    font-size: 29px;
+    font-family: Milkiway;
+    color: black;
+    font-weight: 100;
+}
+#header .menus{
+    border: 1px solid gray;
+    padding: 10px 25px 0px 0px;
+    background-color: #1B3A57;
+    color: white;
+    border-radius: 8px;
+}
+#header .menus ul{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    list-style: none;
+}
+
+#header .menus ul a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.849);
+    padding: 5px;
+    border-radius: 3px;
+    /* border: 1px solid red; */
+    transition: .3s all ease;
+    font-size: 15px;
+}
+#header .menus ul a:hover{
+    background-color: #E57A44;
 }

@@ -30,7 +30,8 @@
 }
 #header .menus{
     border: 1px solid gray;
-    padding: 10px 25px 0px 0px;
+    padding-top: 10px ;
+    padding-right: 20px;
     background-color: #1B3A57;
     color: white;
     border-radius: 8px;
@@ -53,4 +54,67 @@
 }
 #header .menus ul a:hover{
     background-color: #E57A44;
+}
+
+
+#body-1-text{
+    width: 26%;
+    padding: 10% 0 0 50px;
+    position: relative;
+}
+#body-1-text h1{
+    font-weight: bolder;
+    /* font-family: 'arial B'; */
+    font-size: 34px;
+}
+#body-1-text p{
+    font-size: 13px;
+}
+.button button{
+    padding: 3px 7px;
+    background-color: #F7C948;
+    color: black;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 13px;
+    position: absolute;
+    top: 27%;
+    left: 13%;
+    font-weight: 500;
+}
+#body-2{
+    padding: 5% 0;
+}
+
+#body-2 .body-2-top{
+    text-align: center;
+    padding: 20px 0;
+}
+#body-2 .body-2-top p{
+    color: #F7C948;
+    font-weight: bold;
+    margin-bottom: -5px;
+    font-size: 20px;
+}
+#body-2 .body-2-top h1{
+    color: black;
+}
+#body-2 .body-2-cards{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 10px;
+    padding: 20px 5%;
+}
+#body-2 .body-2-cards .card{
+    border: none;
+}
+#body-2 .body-2-cards .card .heading{
+    padding-top: 10px;
+    margin-bottom: -2px;
+    font-size: 18px;
+}
+#body-2 .body-2-cards .card p{
+    font-size: 13px;
 }

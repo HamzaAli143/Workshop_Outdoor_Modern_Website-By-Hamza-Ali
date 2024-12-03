@@ -115,18 +115,28 @@ main{
     gap: 20px;
     padding: 40px 5% 10px;
 }
+#products-cards .cards{
+    border: 1px solid rgba(128, 128, 128, 0.349);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.521);
+}
+#products-cards .cards .paragraph{
+    padding-top: 15px;
+    font-size: 13px;
+}
 #products-cards .cards .lower{
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     align-items: center;
 }
 #products-cards .cards .lower p{
     font-size: 13px;
 }
 #products-cards .cards .lower button{
-    font-size: 11px;
+    font-size: 15px;
     padding: 5px 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: #E57A44;
 }
 @media screen and (max-width : 651px){
